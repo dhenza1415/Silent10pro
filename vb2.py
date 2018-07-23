@@ -342,10 +342,10 @@ ki8mid = ki8.getProfile().mid
 ki9mid = ki9.getProfile().mid
 ki10mid = ki10.getProfile().mid
 Smid = owner.getProfile().mid
-Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"uda936836a9869eb86ec8ab992a4e8979"]
-admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"uda936836a9869eb86ec8ab992a4e8979","ue4e13b0a41d848845489374e671c6861","ub21eb3d440e0dfd640eef9f2fb5ce02d","u782cdf7a9fd2545c84a0cd86f418e9f7","u799da4e06d50e1775cfcff1f3e59df03"]
-creator=["uda936836a9869eb86ec8ab992a4e8979"]
-admsa=["uda936836a9869eb86ec8ab992a4e8979"]
+Bots=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,ki10mid,Smid,"ufdc20b3a00b5e8f31e4f91017eb361b0"]
+admin=[mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,ki6mid,ki7mid,ki8mid,ki9mid,Smid,"ufdc20b3a00b5e8f31e4f91017eb361b0","ue4e13b0a41d848845489374e671c6861","ub21eb3d440e0dfd640eef9f2fb5ce02d","u782cdf7a9fd2545c84a0cd86f418e9f7","u799da4e06d50e1775cfcff1f3e59df03"]
+creator=["ufdc20b3a00b5e8f31e4f91017eb361b0"]
+admsa=["ufdc20b3a00b5e8f31e4f91017eb361b0"]
 
 readOpen = codecs.open("st2__b.json","r","utf-8")
 read = json.load(readOpen)
@@ -2552,7 +2552,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="║☆║Add:ON➡️✅\n"
                 else:md+="║☆║Add:OFF➡️❌\n"
                 if wait["commentOn"] == True: md+="║☆║Com:ON➡️✅\n"
-                else:md+="║☆║Com:OFF➡️❌\n║═║❨◄═══►❩\n║☆║◄═PROTECTION═►\n║═║═VIPRO═╣\n"
+                else:md+="║☆║Com:OFF➡️❌\n║═║❨◄═══►❩\n║☆║◄═PROTECTION═►\n║═║═SILENT BOT═╣\n"
                 if wait["protect"] == True: md+="║☆║Pro:ON➡️✅\n"
                 else:md+="║☆║Pro:OFF➡️❌\n"
                 if wait["linkprotect"] == True: md+="║☆║ProtectQr:ON➡️✅\n"
@@ -2587,7 +2587,7 @@ def bot(op):
                     vipro.sendText(msg.to,"old user")
             elif cms(msg.text,["Add"]):
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': 'uda936836a9869eb86ec8ab992a4e8979'}
+                msg.contentMetadata = {'mid': 'ufdc20b3a00b5e8f31e4f91017eb361b0'}
                 vipro.sendText(msg.to,"❂•••••••••✧••••••••••❂")
                 vipro.sendMessage(msg)
             elif "Tagme: " in msg.text:
@@ -4269,12 +4269,12 @@ def bot(op):
 #------------------------------------------------------------
             elif msg.text in ["Admin","admin"]:
                 msg.contentType = 13
-                admin1 = "uda936836a9869eb86ec8ab992a4e8979"
-                admin2 = "ub21eb3d440e0dfd640eef9f2fb5ce02d"
-                admin3 = "u782cdf7a9fd2545c84a0cd86f418e9f7"
-                admin4 = "ue4e13b0a41d848845489374e671c6861"
-                admin5 = "u799da4e06d50e1775cfcff1f3e59df03"
-                admin6 = "u00d73ba3e810e651e8c5690723e1b5bf"
+                admin1 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
+                admin2 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
+                admin3 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
+                admin4 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
+                admin5 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
+                admin6 = "ufdc20b3a00b5e8f31e4f91017eb361b0"
                 msg.contentMetadata = {'mid': admin1}
                 vipro.sendMessage(msg)
                 msg.contentMetadata = {'mid': admin2}
