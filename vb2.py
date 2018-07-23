@@ -411,12 +411,12 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':True,
-    'tagme':"kangen ngmong aja jngan ngtag mele dhenza lagisibuk",
+    'tagme':"kangen ngmong aja jngan ngtag mele dhenza lagi sibuk",
     'sider1':"CCTV Jones 😂😂😂",
     'joingc':"WELCOME",
     'leftgc':"Papay... 😢😢😢",
     "stickerMention":False,
-    'message':"THANKS FOR ADD ME 👉SILENT KILLER👈",
+    'message':"THANKS FOR ADD ME 👉「 ̶s̶̶i̶̶l̶̶e̶̶n̶̶t̶̶ ̶̶k̶̶i̶̶l̶̶l̶̶e̶̶r̶」👈",
     "lang":"JP",
     "comment":"Thanks For Add Me",
     "comment1":"ᴀᴜᴛᴏ ʟɪᴋᴇ ⓑⓨ「 ̶s̶̶i̶̶l̶̶e̶̶n̶̶t̶̶ ̶̶k̶̶i̶̶l̶̶l̶̶e̶̶r̶」\n\n\n\nline.me/ti/p/~dhenz415",
@@ -1620,7 +1620,7 @@ def bot(op):
                 msg.contentType = 13
                 msg.contentMetadata = {'mid': ki9mid}
                 ki9.sendMessage(msg)
-                ki.sendText(msg.to,"PASUKAN SILENT HADIR SMUA BOS ☠TEAM BOT PROTECT☠")
+                ki.sendText(msg.to,"PASUKAN SILENT HADIR SMUA BOS forwd by : ☠TEAM BOT PROTECT☠")
             elif "B1" == msg.text:
               if msg.from_ in creator + admin:
                 msg.contentType = 13
